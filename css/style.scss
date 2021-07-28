@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 25px 0;
+    border: 2px solid rgba(74, 128, 101, 0.933);
+    border-radius: 30px;
+
+    .score {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgba(238, 238, 238, 0.933);
+        margin: 50px 50px;
+        padding: 25px 0;
+        border: 2px solid rgba(74, 128, 101, 0.933);
+        border-radius: 30px;
+
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+       
+    }
+}
