@@ -2,15 +2,34 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   width: 80%;
+  height: 670px;
   text-align: center;
   margin: 50px 50px;
   padding: 25px 0;
   border: 2px solid rgba(74, 128, 101, 0.933);
   border-radius: 30px;
+}
+
+.container p.restart {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.container #gameResult p.green {
+  color: green;
+}
+
+.container #gameResult p.red {
+  color: red;
+}
+
+.container #gameResult p.black {
+  color: black;
 }
 
 .container .score {
@@ -27,6 +46,22 @@
   border-radius: 30px;
 }
 
+.container .score p {
+  padding: 20px 0;
+}
+
+.container .score p.black {
+  color: black;
+}
+
+.container .score p.green {
+  color: #2cdb2c;
+}
+
+.container .score p.red {
+  color: red;
+}
+
 .container .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,6 +69,50 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-size: 2rem;
-  margin: 100px 100px;
+  margin: 50px 100px;
+  cursor: pointer;
+}
+
+.container .icons p i {
+  padding: 20px;
+  margin: 0 20px;
+  background-color: #79cf67;
+  border: 4px solid #407036;
+  border-radius: 50%;
+}
+
+.container .icons .selected {
+  background-color: #dcf879;
+  border-color: #fdb838;
+}
+
+.container .comp {
+  font-size: 2rem;
+  margin: 50px 100px;
+}
+
+.container .comp p i {
+  padding: 20px;
+  margin: 0 20px;
+  background-color: #d9ddd8;
+  border: 4px solid #407036;
+  border-radius: 50%;
+}
+
+.container .result p {
+  font-size: 2rem;
+}
+
+.container .result p.loose {
+  color: red;
+}
+
+.container .result p.win {
+  color: green;
+}
+
+.container .result i.yellow {
+  color: yellow;
+  font-size: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
